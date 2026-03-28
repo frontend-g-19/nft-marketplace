@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.container {
+  max-width: 1046px;
+  margin: auto;
+  /* border: #a259ff solid 1px; */
+}
+
+button {
+  transition: all 0.3s;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-right ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-right ul li {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.nav-right button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+.home .left-side h1 {
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+  color: white;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.home .left-side p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  color: white;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.home .left-side button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 20px 50px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+/* trending-collection */
+.trending-collection h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.trending-collection p {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 0;
+  gap: 20px;
+}
+
+.collection .card {
+  width: 330px;
+}
+
+.collection .card .three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.collection .card .info h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.collection .card .info p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
