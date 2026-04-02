@@ -204,7 +204,8 @@ nav .nav-right {
 }
 
 /* grids */
-.rated-artists .card-grid {
+.rated-artists .card-grid,
+.categories .card-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
@@ -271,4 +272,36 @@ nav .nav-right {
 
 .rated-artists .card-grid .card p span {
   color: white;
+}
+
+/* categories */
+.categories h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+}
+
+.categories .card-grid .card {
+  background: #3b3b3b;
+  width: 240px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.categories .card-grid .card h2 {
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  transition: all 0.5s;
+}
+
+.categories .card-grid .card:hover {
+  transform: translateY(-10px);
+}
+
+.categories .card-grid .card:hover h2 {
+  color: #a259ff;
 }
