@@ -20,6 +20,7 @@ body {
 
 button {
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 button:active {
@@ -107,7 +108,6 @@ nav .nav-right {
   border-radius: 20px;
   background-color: #a259ff;
   margin-bottom: 50px;
-  cursor: pointer;
 }
 
 /* trending-collection */
@@ -161,4 +161,114 @@ nav .nav-right {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
+}
+
+/* rated-artists css */
+.rated-artists {
+  margin: 50px auto;
+}
+
+.rated-artists .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rated-artists .top .headings h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.rated-artists .top .headings p {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.rated-artists .top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  padding: 20px 50px;
+  background-color: transparent;
+}
+
+/* grids */
+.rated-artists .card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 25px;
+  margin-top: 50px;
+}
+
+.rated-artists .card-grid .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #3b3b3b;
+  width: 240px;
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.rated-artists .card-grid .card img {
+  transition: all 0.5s;
+}
+
+.rated-artists .card-grid .card:hover {
+  box-shadow: inset 0 0 20px #a259ff;
+}
+
+.rated-artists .card-grid .card:hover img {
+  transform: scale(1.1);
+}
+
+.rated-artists .card-grid .card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: #2b2b2b;
+  color: #858584;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.rated-artists .card-grid .card h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: white;
+  text-transform: capitalize;
+}
+
+.rated-artists .card-grid .card p {
+  color: #858584;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.rated-artists .card-grid .card p span {
+  color: white;
 }
