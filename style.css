@@ -418,3 +418,74 @@ nav .nav-right {
 .banner {
   width: 1040px;
 }
+
+/* works */
+.works {
+  margin: 50px auto;
+}
+
+.works h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.works p {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.works .card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 50px;
+}
+
+.works .card-grid .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3b3b3b;
+  padding: 10px 30px 30px 30px;
+  border-radius: 20px;
+  width: 330px;
+  transition: all 0.5s;
+}
+
+.works .card-grid .card img {
+  transition: all 0.5s;
+}
+
+.works .card-grid .card:hover {
+  box-shadow: 0 0 20px #a259ff;
+}
+
+.works .card-grid .card:hover img {
+  transform: scale(1.1);
+}
+
+.works .card-grid .card h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  margin: 20px 0;
+  transition: all 0.5s;
+}
+
+.works .card-grid .card:hover h2 {
+  color: #a259ff;
+}
+
+.works .card-grid .card p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
