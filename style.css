@@ -489,3 +489,72 @@ nav .nav-right {
   line-height: 140%;
   text-align: center;
 }
+
+/* subscribe-widget css */
+.subscribe-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3b3b3b;
+  margin: 50px auto;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.subscribe-widget .info h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.subscribe-widget .info p {
+  color: white;
+  width: 400px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.subscribe-widget .info .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  width: 425px;
+}
+
+.subscribe-widget .info .form input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  color: #2b2b2b;
+  font-size: 16px;
+  line-height: 140%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.subscribe-widget .info .form input::placeholder {
+  color: #2b2b2b;
+}
+
+.subscribe-widget .info .form button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  background-color: #a259ff;
+}
