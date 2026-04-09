@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  /* border: #a259ff solid 1px; */
+}
+
+button {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-right ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-right ul li {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.nav-right button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  cursor: pointer;
+}
+
+/* register css */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.register .signup-form h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.register .signup-form p {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  width: 460px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.register .signup-form form {
+  width: 330px;
+}
+
+.register .signup-form form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.register .signup-form form div input {
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2b2b2b;
+  width: 100%;
+}
+
+.register .signup-form form div input::placeholder {
+  color: #2b2b2b;
+}
+
+.register .signup-form form button {
+  background-color: #a259ff;
+  border: none;
+  width: 100%;
+  color: white;
+  padding: 15px 0;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
