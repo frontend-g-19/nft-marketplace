@@ -5,6 +5,7 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
+  text-decoration: none;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -69,6 +70,8 @@ nav .nav-right {
   background-color: #a259ff;
   cursor: pointer;
 }
+
+/* home */
 
 .home {
   display: flex;
