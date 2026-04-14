@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.container {
+  max-width: 1046px;
+  margin: auto;
+  /* border: #a259ff solid 1px; */
+}
+
+button {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-right ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-right ul li {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.nav-right button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  cursor: pointer;
+}
+
+/* rankings css */
+.rankings h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.rankings p {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.table {
+  margin: 70px 0;
+}
+
+.table .tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
+}
+
+.table .tabs button {
+  width: 261.5px;
+  padding: 15px 30px;
+  background: transparent;
+  color: #858584;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  border: none;
+}
+
+table {
+    width: 100%;
+}
+
+table thead tr{
+    border: 1px solid red;
+}
